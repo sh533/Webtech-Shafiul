@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Registration Form</title>
+	<style>
+	
+label{
+
+width: 100px;
+display: inline-block;
+font-size:15px;
+
+}
+
+
+
+
+</style>
+</head>
+<body>
+<fieldset>	
+<h4 style="color: red" > * -Donates Required Information</h4>
+	<b> > 1 Donation</b>   <b> > 2 Confirmation  </b><b> >Thank You!  </b>
+  
+
+	<h1 style="color: red">Donor Information</h1>
+	
+	
+	<form action="action_page.php">
+		
+
+		<label for="name">First Name <sup style="color: red" >*</sup></label>
+		<input type="text" name="Fname" id="name1">
+		<br>
+
+		<label for="name">Last Name <sup style="color: red" >*</sup></label>
+		<input type="text" name="Lname" id="name2">
+		<br>
+
+		<label for="name">Company</label>
+		<input type="text" name="Cname" id="name3">
+		<br>
+		<label for="name">Address 1 <sup style="color: red" >*</sup></label>
+		<input type="text" name="Aname1" id="name">
+		<br>
+		<label for="name">Address 2</label>
+		<input type="text" name="Aname2" id="name">
+		<br>
+		<label for="name">City <sup style="color: red" >*</sup></label>
+		<input type="text" name="Aname2" id="name">
+		<br>
+
+
+
+		<label for="Religion">State <sup style="color: red" >*</sup></label>
+		<select id="Religion" name="Religion">
+			<option>dhaka</option>
+			<option>naogaon</option>
+			<option>saver</option>
+			<option>mirpur</option>
+			<option>Others</option>
+		</select>
+		<br>
+		<label for="name">Zip Code <sup style="color: red" >*</sup></label>
+		<input type="text" name="Zname2" id="name">
+		<br>
+		<label for="Religion">Country <sup style="color: red" >*</sup></label>
+		<select id="Religion" name="Religion">
+			<option>Bangladesh</option>
+			<option>India</option>
+			<option>England</option>
+			<option>D</option>
+			<option>Others</option>
+		</select>
+		<br>
+
+		<label for="name">Phone </label>
+		<input type="number" name="Aname2" id="name">
+		<br>
+		<label for="name">Fax</label>
+		<input type="text" name="Aname2" id="name">
+		<br>
+		<label for="name">Email <sup style="color: red" >*</sup></label>
+		<input type="text" name="Aname2" id="name">
+		<br>
+		<label for="">Donation Amount <sup style="color: red" >*</sup></label>
+		<input type="radio" name="Amount" id="1" value="None">
+		<label for="male">None</label>
+		<input type="radio" name="Amount" id="2" value="$50">
+		<label for="female">$50</label>
+		<input type="radio" name="Amount" id="3" value="$50">
+		<label for="female">$75</label>
+		<input type="radio" name="Amount" id="4" value="$50">
+		<label for="female">$100</label>
+		<input type="radio" name="Amount" id="5" value="$50">
+		<label for="female">$250</label>
+		<br>
+		<h5>(Check a button or type in your amount)</h5>
+		                       <label>Other Amount $</label>
+		                       <input type="text" name="Amount"><br>
+		<label>Recurring Donation</label>
+		<h5>(check if yes)</h5><br><br>
+		<input type="checkbox" id="1" name="amount" value="amount">
+  <label for="vehicle1"> I am interested in giving on a regular basis.<br>
+  	monthly credit card $ <input type="text" name="a"> for <input type="text" name="b"> month</label>	                       
+
+	<h1 style="color: red">Honorarium and Memorial Donation Information</h1>
+
+
+		<label for="">I would like to make this</label>
+		<input type="radio" name="Amount" id="1" value="None">
+		<label for="male">To Honor</label><br>
+		<label for="">donation</label>
+		<input type="radio" name="Amount" id="1" value="None">
+		<label for="male">In Memory ofr</label>	
+
+    <form action="action_page.php">
+    	
+    		<label for="name"> Name:</label>
+		<input type="text" name="Fname" id="name1">
+		<br>
+		<label for="name">Acknwledge Donation to</label>
+		<input type="text" name="Fname" id="name1">
+		<br>
+		<label for="name">Address</label>
+		<input type="text" name="Fname" id="name1">
+		<br>
+		<label for="name">City</label>
+		<input type="text" name="Fname" id="name1">
+		<br>
+		<label for="Religion">State</label>
+		<select id="Religion" name="Religion">
+			<option>dhaka</option>
+			<option>naogaon</option>
+			<option>saver</option>
+			<option>mirpur</option>
+			<option>Others</option>
+		</select>
+		<br>
+			<label for="name">Zip</label>
+		<input type="text" name="Fname" id="name1">
+		<br>
+
+
+
+    </form>
+    <h1 style="color: red">Additional Information</h1>
+    <p>please enter your name, company or organization as you wouid like it to appear in our publication:</p>
+    <label for="name"> Name:</label>
+		<input type="text" name="Fname" id="name1"><br>
+		<input type="checkbox" id="1" name="amount" value="amount">
+  <label for="vehicle1"> I would like my gift to remain anonymous.<br>
+  	<input type="checkbox" id="1" name="amount" value="amount">
+  <label for="vehicle1">My employer offers a matching gift program.Iwill mail the matching gift form.<br>
+  	<input type="checkbox" id="1" name="amount" value="amount">
+  <label for="vehicle1">Please save the cost of acknowledging this gift by not mailing a thank you letter.<br>
+
+  		<label for="name">Comment: </label>
+         <textarea id="w3review" name="w3review" rows="2" cols="40">
+ 				(please type any question or feedback here)
+         </textarea><br><br>
+
+         	<label for="name"> How may we contact you?:</label>
+         	<ol>
+         		<input type="checkbox" id="1" name="amount" value="amount">
+                <label for="vehicle1">  E-mail<br>
+  	             <input type="checkbox" id="1" name="amount" value="amount">
+                <label for="vehicle1">Postal Mail<br>
+  	            <input type="checkbox" id="1" name="amount" value="amount">
+                <label for="vehicle1">Telephone.<br>
+                	<input type="checkbox" id="1" name="amount" value="amount">
+                <label for="vehicle1">Fax<br>
+         	</ol>
+
+         	 <p>I would like to receive newsletters and infoemation about special events by</p>
+
+              <input type="checkbox" id="email" name="email" value="">
+              <label for="email"> Email</label><br>
+              <input type="checkbox" id="postalmail" name="postalmail" value="">
+              <label for="postalmail"> Postal Mail </label><br>
+
+              <input type="checkbox" id="confirm" name="confirm" value="">
+               <label for="confirm"> I would like information about volunteering with the</label><br><br>
+  
+               <input type="Reset" value="Reset">     
+               <input type="Continue" value="Continue">
+
+<br><br>
+
+
+
+
+
+
+		</fieldset>
+	  </form>
+
+
+</body>
+</html>
